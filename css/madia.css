@@ -23,6 +23,13 @@
     line-height: 0.9;
     font-size: 60px;
 }
+.form-btn-custom {
+    margin-left: 370px;
+    /* float: right; */
+}
+.embed-responsive-16by9::before {
+    padding-top: 49.25%;
+}
 }
 
 @media (max-width: 1199px) {
