@@ -1,294 +1,85 @@
+@media(max-width: 1199px){
 
-@media (max-width: 1920px){
-  .about-section .heading h1 {
-    line-height: .9;
+    .banner .header h1 {
+    font-size: 53px;
 }
-.about-section .heading span {
-    top: -43px;
-    font-size: 68px;
-    width: 100%;
+.banner .header p {
+    font-size: 15px;
 }
-.about-section p {
-    font-size: 16px !important;
-    width: 365px !important;
-    margin: auto;
-    margin-bottom: 15px;
+.btn-custom,.btn-custom-reverse {
+    padding: 9px 18px;
+    font-size: 15px;
 }
 .about-section .heading {
-    margin-bottom: 39px;
-    margin-top: -30px;
+    margin-bottom: 46px;
+    margin-top: -23px;
+}
+.about-section .heading {
+    margin-bottom: 69px;
+}
+.about-section .heading h1 {
+    line-height: 0.14;
+    font-size: 42px;
+}
+.about-section .heading span {
+    top: -61px;
+    font-size: 69px;
+}
+.about-section p {
+    width: 368px;
+    font-size: 15px;
 }
 .skill-section h1 {
     text-align: center;
-    line-height: 0.9;
-    font-size: 60px;
-}
-.form-btn-custom {
-    margin-left: 370px;
-    /* float: right; */
-}
-.embed-responsive-16by9::before {
-    padding-top: 49.25%;
-}
-}
-
-@media (max-width: 1199px) {
-.banner .header h1 {
-    font-size: 51px;
-}
-.btn-custom,.btn-custom-reverse {
-    padding: 8px 16px;
-}
- a{
-  font-size: 14px !important;
-}
-.about-section .heading {
-    margin-bottom: 50px;
-    margin-top: -36px;
-}
-.about-section .heading h1 {
-    line-height: 1;
-    font-size: 40px;
-}
-.about-section .heading span {
-    top: -41px;
-    font-size: 68px !important;
-}
-.about-section p {
-    font-size: 16px !important;
-    width: 366px !important;
-    margin-bottom: 9px;
-}
-.about-section .row {
-    justify-content: center;
-    align-items: center !important;
-}
-.skill-section {
-    margin-top: 86px !important ;
+    line-height: .9;
+    font-size: 57px;
 }
 .skill-section span {
-    font-size: 77px !important ;
-        line-height: 1.2;
-}
-.skill-section h1 {
-    font-size: 52px !important ;
-}
-header {
-    font-size: 23px !important ;
-    padding-top: 9px !important ;
-}
-
-.skill {
-    margin-left: 10px !important ;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 22px 0;
-}
-.skill img {
-    max-width: 100px ;
-}
-.skill-section .col-md-5{
-padding-left: 0px;
-padding-right: 0px;
-}
-.skill-section .heading {
-    padding-bottom: 25px ;
+    font-size: 89px;
+    line-height: 1.1;
 }
 .skill span {
-    font-size: 27px !important;
-}
-
-
-.resume-section {
-    padding: 80px 0;
+    font-size: 21px !important;
 }
 .resume-section h1 {
-    font-size: 48px;
+    font-size: 56px;
     line-height: 2.3;
-}
-
-.resume-box {
-    padding-left: 28px !important;
-}
-.resume-contant {
-    padding: 28px 0;
-        padding-top: 0px;
-}
-.resume-box:hover .resume-contant {
-    padding: 28px !important;
-        padding-top: 0px !important;
-}
-.resume-contant span {
-    padding: 2px 2px;
-}
-.work-section h1 {
-    font-size: 50px;
-    line-height: 2.3;
-}
-.work-section a {
-    padding: 9px 21px !important;
-    font-size: 16px !important;
-}
-.project-img h1 {
-    padding: 16px 80px;
-    font-size: 29px;
-    margin-top: 42px;
-    margin-bottom: 42px;
-}
-.project-img a {
-    margin-top: -110px;
-}
-.contact-section h1 {
-    font-size: 46px;
-}
-.form-btn-custom {
-    margin-left: 279px;
-}
-.embed-responsive-16by9::before {
-    padding-top: 71.25% !important;
-}
-.resume-section h1 {
-    font-size: 45px;
-    line-height: 2.6;
 }
 .resume-section span {
-    width: 100%;
-    margin: auto;
-    font-size: 83px;
-}
-
-.resume-contant span {
-    padding: 2px 2px;
-    font-size: 19px !important;
-}
-.resume-section h5 {
-    margin-left: 30px;
-}
-.work-section h1 {
-    font-size: 50px;
-    line-height: 2.7;
-}
-.work-section span {
-    font-size: 83px !important;
-    margin-top: 7px;
-}
-}
-
-
-@media (max-width: 991px) {
-  .banner .header h1 {
-    font-size: 50px;
-  }
-  .banner .header p {
-    font-size: 14px;
-}
-  .btn-custom,.btn-custom-reverse {
-    padding: 8px 16px;
-    font-size: 13px !important;
-}
-  .about-section .heading h1 {
-    line-height: 1;
-    font-size: 37px;
-}
-.about-section .heading span {
-    top: -30px;
-    font-size: 52px !important;
-}
-.about-section p {
-    font-size: 14px !important;
-    width: 288px !important;
-    margin-top: -6px;
-}
-
-.skill-section .heading {
-    padding-bottom: 25px ;
-}
-.skill span {
-    font-size: 27px !important;
-}
-.skill-section h1 {
-    font-size: 41px !important;
-}
-.skill-section span {
-    font-size: 58px !important;
-    line-height: 1.3;
-}
-.skill span {
-    font-size: 27px !important;
-}
-
-.resume-section h1 {
-    font-size: 36px;
-    line-height: 2.2;
-}
-.resume-section span {
-    width: 100%;
-    margin: auto;
-    font-size: 59px;
-}
- .resume-box::before, .resume-box::after{
-  display: none;
+    font-size: 90px;
 }
 .resume-contant span {
-    padding: 2px 2px;
-    font-size: 19px !important;
-}
-.resume-section h5 {
-    margin-left: 30px;
-}
-
-.work-section h1 {
-    font-size: 43px;
-    line-height: 2.3;
-}
-.work-section span {
-    font-size: 59px !important;
-    margin-top: 7px;
-}
-.project-img h1 {
-      width: 64%;
+    font-size: 18px;
 }
 .project-img {
-    border-bottom-right-radius: 93px;
+    background-size: 100% 100%;
 }
-.contact-section h1 {
-    font-size: 43px;
-    line-height: 2.3;
+.project-img h1 {
+    padding: 71px 80px;
+    font-size: 30px;
+    font-weight: 400;
 }
-.contact-section span {
-    font-size: 59px !important;
-
+.project-img a {
+    padding: 9px 18px;
+    font-weight: 500;
+    margin-top: -126px;
 }
-.contact-section h1 {
-    font-size: 36px;
-    line-height: 2.2;
-}
-.embed-responsive-16by9::before {
-    padding-top: 97.25% !important;
+.embed-responsive {
+    height: 325px;
 }
 .form-btn-custom {
-    margin-left: 180px;
-    padding: 6px 15px;
+    margin-left: 281px;
 }
-.social-section i {
-    font-size: 48px;
 }
-.social-section .custom {
-    font-size: 20px;
-}
-.social-section li {
-    padding: 20px 0;
-    padding-left: 38px;
-}
-.navbar .nav-item{
+
+@media(max-width: 991px){
+    .navbar .nav-item{
     text-transform: uppercase;
     font-weight: 400;
     }
 
 .navbar .navbar-nav .nav-link {
-    
-    margin-top: -22px;
+    margin-top: -30px;
     display: inline-block;
     float: right;
 }
@@ -303,276 +94,407 @@ padding-right: 0px;
 .navbar .navbar-nav .nav-link:hover::before{
   content: none;
   }
-
-}
-
-
-
-@media (max-width: 767px) {
- .banner .header h1 {
-    font-size: 44px;
+     .banner .header h1 {
+        font-size: 51px;
 }
 .banner .header p {
-    font-size: 12px;
+    font-size: 14px;
 }
-.social-icon {
-  display: none;
-}
-.btn-custom,.btn-custom-reverse {
-    padding: 7px 14px;
-    font-size: 11px !important;
-}
-.about-section .row {
-  justify-content: center;
+.btn-custom,.btn-custom-reverse{
+    padding: 8px 16px;
+    font-size: 14px;
 }
 .about-section .heading {
-    margin-top: 16px;
+    margin-bottom: 48px;
+    margin-top: 0px;
 }
-
 .about-section .heading h1 {
-    font-size: 40px;
-    line-height: .7 !important;
+    line-height: 0.14;
+    font-size: 35px;
 }
 .about-section .heading span {
-    top: -50px;
-    font-size: 70px !important;
-    width: 100%;
+    top: -43px;
+    font-size: 50px;
 }
 .about-section p {
-    font-size: 15px !important;
-    width: 493px !important;
-    margin: auto;
-    margin-bottom: 11px;
+    width: 270px;
+    font-size: 13px;
+}
+.skill-section .heading {
+    padding-bottom: 0px;
 }
 .skill-section span {
-    font-size: 49px !important;
-    line-height: 1.2;
-    margin-top: 4px;
+    font-size: 67px;
+        line-height: 1.2;
 }
 .skill-section h1 {
-    font-size: 33px !important;
-}
-.skill img {
-    max-width: 88px;
-}
-.skill {
-    margin-left: 10px !important;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 14px 0;
-}
-.skill-section span {
-    font-size: 49px !important;
-    line-height: 1.2;
-       margin-top: 5px;
-}
-.skill span {
-  font-size: 24px !important;
+    font-size: 41px;
 }
 .resume-section h1 {
-    font-size: 32px !important;
-    line-height: 1.8;
+    font-size: 44px;
+    line-height: 2;
 }
 .resume-section span {
-    font-size: 49px !important;
+    font-size: 67px;
 }
 .resume-contant span {
-    padding: 2px 2px;
-    font-size: 18px !important;
+    font-size: 18px;
+}
+.resume-section h5 {
+    margin-top: 24px;
 }
 .work-section h1 {
-    font-size: 32px !important;
+    font-size: 44px;
+    line-height: 2;
 }
 .work-section span {
-    font-size: 49px !important;
-    margin-top: 7px;
+    font-size: 67px;
+}
+.project-img {
+    background-size: 100% 100%;
 }
 .project-img h1 {
-    width: 58%;
-    font-size: 14px;
+    padding: 71px 80px;
+    font-size: 18px;
     font-weight: 400;
 }
 .project-img a {
-    margin-top: -93px;
+    padding: 9px 18px;
+    font-size: 12px;
+    margin-top: -112px;
 }
-.project-img {
-    border-bottom-right-radius: 93px;
+.contact-section h1 {
+    font-size: 44px;
+    line-height: 2.1;
 }
-.project-img a {
-    margin-right: 45px;
-    padding: 7px 7px;
-    font-size: 11px !important;
+.contact-section span {
+    font-size: 67px;
 }
-.embed-responsive-16by9::before {
-    padding-top: 77.25% !important;
+.drawer {
+    width: 100%;
 }
-
+.form-btn-custom {
+    font-size: 10px;
+    margin-left: 204px;
+}
 .social-section li {
-    padding: 9px 0;
+    padding: 11px 0;
+    padding-left: 28px;
 }
-.social-section li {
-    padding: 20px 0;
-    padding-left: 30px;
+.social-section i {
+    font-size: 29px;
 }
 .social-section .custom {
-    font-size: 10px;
-    /* display: none; */
-    margin-top: 13px;
+    font-size: 18px;
+    margin-left: -3px;
+    margin-top: 0px;
 }
 }
 
-
-
-@media (max-width: 585px){
-  .resume-box::before, .resume-box::after{
-  display: none;
+@media(max-width: 767px){
+   .banner .header h1 {
+        font-size: 49px;
+}
+.banner .header p {
+    font-size: 13px;
+}
+.btn-custom,.btn-custom-reverse{
+    padding: 7px 14px;
+    font-size: 13px;
+}
+.list-unstyled {
+display: none;
+}
+.about-section .row{
+    justify-content: center;
+}
+.about-section .heading {
+    margin-bottom: 65px;
+    margin-top: 11px;
+}
+.about-section .heading h1 {
+    font-size: 54px;
+        line-height: 1.4;
+}
+.about-section .heading span {
+    font-size: 91px;
+    width: 100%;
+}
+.about-section p {
+    width: 507px;
+    font-size: 17px;
+}
+.skill-section h1 {
+    font-size: 33px;
+}
+.skill-section span {
+    font-size: 49px;
+    line-height: 1.4;
+}
+.resume-section h1 {
+    font-size: 30px;
+    line-height: 1.9;
+}
+.resume-section span {
+    font-size: 49px;
+}
+.resume-contant span {
+    font-size: 18px;
+}
+.work-section h1 {
+    font-size: 30px;
+    line-height: 1.9;
+}
+.work-section span {
+    font-size: 49px;
+}
+.work-section li {
+    font-size: 18px;
+}
+.project-img h1 {
+    padding: 71px 80px;
+    font-size: 8px;
+    font-weight: 600;
+}
+.project-img a {
+    padding: 7px 14px;
+    font-size: 8px;
+    margin-top: -97px;
+}
+.contact-section h1 {
+    font-size: 30px;
+    line-height: 1.9;
+}
+.contact-section span {
+    font-size: 49px;
+}
+.social-section .custom {
+    font-size: 15px;
+    margin-left: -19px;
+    margin-top: 3px;
+}
 }
 
-}
-
-
-
-@media (max-width: 575px) {
-.banner .header h1 {
-    font-size: 39px;
+@media(max-width: 575px){
+       .banner .header h1 {
+        font-size: 37px;
 }
 .banner .header p {
     font-size: 12px;
-    width: 317px;
+    max-width: 265px;
 }
-.btn-custom {
-    padding: 6px 10px;
+.btn-custom,.btn-custom-reverse{
+    padding: 6px 12px;
+    font-size: 12px;
 }
-.btn-custom-reverse {
-    padding: 6px 10px;
+.list-unstyled {
+display: none;
 }
-.resume-section h1 {
-    font-size: 35px;
-    line-height: 2.9;
+.about-section .heading h1 {
+    font-size: 40px;
+    line-height: 1;
 }
-.resume-section span {
-    width: 100%;
+.about-section .heading span {
+    font-size: 68px;
+}
+.about-section p {
+    width: 369px;
     margin: auto;
-    font-size: 59px;
-    margin-top: 11px;
-}
-.banner .row{
-  justify-content: center;
-}
-.about-section .row{
-  justify-content: center;
-}
-.container-custom {
-     width: 100%; 
-    margin: 0 auto;
-}
-.skill-section span {
-    font-size: 45px !important;
 }
 .skill-section h1 {
-    font-size: 28px !important;
-}
-.skill span {
-    font-size: 22px !important;
-    margin-top: 14px;
-}
-.resume-section h1 {
-  font-size: 28px !important;
-}
-.resume-section span {
-    font-size: 45px !important;
-}
-.resume-box::before, .resume-box::after{
-  display: none;
-}
-.resume-section h1 {
-    font-size: 32px !important;
-    line-height: 1.8;
-}
-.resume-section span {
-    font-size: 49px !important;
-}
-.skill-section h1 {
-    font-size: 22px !important;
+    font-size: 22px;
 }
 .skill-section span {
-    font-size: 36px !important;
-    margin-top: 5px;
+    font-size: 36px;
 }
-
-.social-section li {
-    padding: 11px 0;
-    padding-left: 30px;
+header {
+    font-size: 18px;
 }
-
+.resume-section h1 {
+    font-size: 19px;
+}
+.resume-section span {
+    font-size: 36px;
+}
+.resume-contant p {
+    font-size: 14px;
+    width: 334px;
+}
+.resume-contant span {
+    padding: 2px 3px;
+    font-size: 16px;
+}
+.work-section h1 {
+    font-size: 19px;
+}
+.work-section span {
+    font-size: 36px;
+}
+.work-section li {
+    font-size: 9px;
+}
+.work-section a{
+    padding: 3px 17px;
+}
+.work-section a:hover{
+    padding: 3px 17px;
+}
+.project-img a {
+    padding: 6px 12px;
+    font-size: 8px;
+    margin-top: -97px;
+}
+.project-img h1 {
+    padding: 71px 24px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.contact-section h1 {
+    font-size: 31px;
+    line-height: 1;
+}
+.contact-section span {
+    display: none;
+}
+.form-btn-custom {
+    font-size: 11px;
+    margin-left: 236px;
+}
 .social-section .custom {
-    font-size: 10px;
-    /* display: none; */
-    margin-top: 13px;
     display: none;
 }
 }
 
-
-
-@media (max-width: 507px){
+@media(max-width: 400px){
+  .banner .header h1 {
+    font-size: 18px;
+}
+.banner .header p {
+    font-size: 10px;
+    max-width: 155px;
+}
+.btn-custom, .btn-custom-reverse {
+    padding: 7px 14px;
+    font-size: 11px;
+}
+.list-unstyled {
+display: none;
+}
+.about-section .heading h1 {
+    font-size: 20px;
+}
+.about-section .heading span {
+    font-size: 33px;
+    margin-top: 22px;
+}
 .about-section p {
-    width: 391px !important;
-}
-
-  .skill-section h1 {
-    font-size: 20px !important;
-}
- .skill-section span {
-    font-size: 32px !important;
-    margin-top: 7px;
-}
-
-.skill span {
-  font-size: 25px !important;
-}
-.resume-box::before, .resume-box::after{
-  display: none;
-}
-.container-custom {
-     width: 100%; 
-    margin: 0 auto;
-}
-  .resume-section h1 {
-    font-size: 20px !important;
-}
- .resume-section span {
-    font-size: 32px !important;
-    margin-top: 7px;
-}
-.skill-section h1 {
-    font-size: 22px !important;
+    max-width: 165px;
+    font-size: 12px;
+    margin: auto;
 }
 .skill-section span {
-    font-size: 36px !important;
-    margin-top: 5px;
+    display: none;
 }
-.resume-contant span {
-    padding: 2px 2px;
-    font-size: 16px !important;
+.skill-section h1 {
+    font-size: 39px;
 }
+header {
+    font-size: 11px;
+    margin-top: -32px;
+}
+.skill img {
+    width: 50px;
+}
+.skill {
+    min-height: 107px;
+    line-height: 121.5px;
+}
+.php img {
+    min-width: 61px;
+}
+.resume-section .heading {
+    margin-bottom: 40px;
+}
+.resume-section h1 {
+    font-size: 31px;
+}
+.resume-section span {
+    display: none;
+}
+.resume-contant h2 {
+    font-size: 9px;
+}
+.resume-contant h3 {
+    font-size: 8px;
+}
+.resume-contant p {
+    font-size: 8px;
+    width: 135px;
+}
+.resume-contant span{
+    padding: 2px 3px !important;
+    font-size: 13px !important;;
+}
+.resume-contant h2 {
+    font-size: 9px;
+}
+.resume-contant h3 {
+    font-size: 7px;
+    margin-bottom: -15px;
+}
+.resume-contant p {
+    font-size: 8px;
+    width: 135px;
+}
+.resume-box:hover::after{
 
-.work-section h1 {
-    font-size: 22px !important;
+    display: none;
+}
+.resume-box:hover .resume-contant {
+    display: none;
 }
 .work-section span {
-    font-size: 36px !important;
-    margin-top: 5px;
+   display: none;
 }
-.work-section a {
-    padding: 7px 16px !important;
-    font-size: 12px !important;
+.work-section h1 {
+    font-size: 31px;
+    margin-bottom: -36px;
 }
-.skill span {
-  font-size: 20px !important;
+.work-section li {
+    font-size: 7px;
 }
-.contact-section span {
-    font-size: 53px !important;
+.work-section a:hover, .work-section .active,.work-section a {
+     border: none; 
+     padding: 5px; 
+}
+.project-img {
+    background-size: 100% 100%;
+    border-bottom-right-radius: 39px;
+}
+.project-img h1 {
+    padding: 38px 17px;
+    font-size: 3px;
+}
+.project-img a {
+    padding: 2px 2px;
+    font-size: 5px;
+    margin-top: -49px;
+}
+.contact-section h1 {
+    font-size: 24px;
+    line-height: 1;
+}
+.form-btn-custom {
+    font-size: 7px;
+    margin-left: 67px;
+}
+.social-section .nav {
+    background-color:transparent;
+}
+.social-section li {
+    padding-left: 0px;
+}
+footer h6 {
+    font-size: 7px;
 }
 }
