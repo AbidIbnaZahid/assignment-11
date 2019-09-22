@@ -356,13 +356,13 @@ header {
     line-height: 2.2;
 }
 .resume-contant p {
-    font-size: 14px;
-    width: 325px;
-    margin-top: 10px;
+    font-size: 13px;
+    width: 320px;
+    margin-top: 9px;
 }
 .resume-contant span {
     padding: 2px 3px;
-    font-size: 16px;
+    font-size: 12px;
 }
 .work-section h1 {
     font-size: 23px;
@@ -418,13 +418,13 @@ header {
     padding: 3px 17px;}
 }
 
-@media(max-width: 400px){
+@media(max-width: 420px){
   .banner .header h1 {
     font-size: 18px;
 }
 .banner .header p {
     font-size: 10px;
-    max-width: 155px;
+    max-width: 234px;
 }
 .btn-custom, .btn-custom-reverse {
     padding: 7px 14px;
@@ -433,8 +433,16 @@ header {
 .list-unstyled {
 display: none;
 }
+.about-section {
+    margin-top: 50px;
+}
+
+.about-section .heading {
+    margin-bottom: 19px;
+    margin-top: 19px;
+}
 .about-section .heading h1 {
-    font-size: 20px;
+    font-size: 29px;
 }
 .about-section .heading span {
     font-size: 33px;
@@ -444,6 +452,9 @@ display: none;
     max-width: 165px;
     font-size: 12px;
     margin: auto;
+}
+.skill-section {
+    margin-top: 50px;
 }
 .skill-section span {
     display: none;
@@ -465,44 +476,50 @@ header {
 .php img {
     min-width: 61px;
 }
+.resume-section {
+    padding: 6px 0;
+}
 .resume-section .heading {
-    margin-bottom: 40px;
+    margin-bottom: -5px;
 }
 .resume-section h1 {
     font-size: 31px;
 }
-.resume-section span {
+span {
     display: none;
 }
 .resume-contant h2 {
     font-size: 9px;
 }
-.resume-contant span{
-    padding: 2px 3px !important;
-    font-size: 13px !important;;
+.resume-contant span {
+    padding: 0px 2px;
+    font-size: 10px;
 }
 .resume-contant h2 {
-    font-size: 19px;
-    margin: 12px 0;
+    font-size: 11px;
+    margin: 10px 0;
 }
 .resume-contant h3 {
-    font-size: 7px;
-    margin-bottom: -15px;
+    font-size: 10px;
+    margin-bottom: -1px;
 }
 .resume-contant p {
-    font-size: 14px;
-    width: 325px;
+    font-size: 9px;
+    width: 203px;
     margin-top: 10px;
 }
-.resume-box:hover::after{
+/*.resume-box:hover::after{
 
     display: none;
 }
 .resume-box:hover .resume-contant {
     display: none;
-}
+}*/
 .work-section span {
    display: none;
+}
+.work-section .heading {
+    margin-bottom: 52px;
 }
 .work-section h1 {
     font-size: 31px;
@@ -514,6 +531,10 @@ header {
 .work-section a:hover, .work-section .active,.work-section a {
      border: none; 
      padding: 5px; 
+}
+.project-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .project-img {
     background-size: 100% 100%;
@@ -532,17 +553,31 @@ header {
     font-size: 24px;
     line-height: 1;
 }
+.contact-section .heading {
+    margin-bottom: 25px;
+}
 .form-btn-custom {
     font-size: 7px;
-    margin-left: 67px;
+     margin-left: 0; 
+}
+.social-section {
+    margin-top: 37px;
 }
 .social-section .nav {
-    background-color:transparent;
+    background-color: transparent;
+    width: 100%;
 }
 .social-section li {
     padding-left: 0px;
+    margin: auto;
+}
+footer {
+    margin-top: 24px;
 }
 footer h6 {
-    font-size: 7px;
+    font-size: 10px;
 }
 }
+
+
+
