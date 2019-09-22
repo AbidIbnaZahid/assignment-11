@@ -319,7 +319,7 @@ display: none;
 }
 .about-section .heading h1 {
     font-size: 40px;
-    line-height: 1;
+    line-height: .9;
 }
 .about-section .heading span {
     font-size: 68px;
@@ -327,6 +327,13 @@ display: none;
 .about-section p {
     width: 369px;
     margin: auto;
+}
+.skill-section {
+    margin-top: 50px;
+}
+header {
+    font-size: 18px;
+    margin-top: -30px;
 }
 .skill-section h1 {
     font-size: 24px;
@@ -367,6 +374,9 @@ header {
 .work-section h1 {
     font-size: 23px;
 }
+.work-section .heading {
+    margin-bottom: 52px;
+}
 .work-section span {
     font-size: 36px;
     line-height: 2.3;
@@ -383,6 +393,10 @@ header {
 .work-section a:hover{
     padding: 3px 17px;
 }
+.project-section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
 .project-img a {
     padding: 6px 12px;
     font-size: 8px;
@@ -392,6 +406,9 @@ header {
     padding: 44px 24px;
     font-size: 13px;
     font-weight: 600;
+}
+.contact-section .heading {
+    margin-bottom: 34px;
 }
 .contact-section h1 {
     font-size: 31px;
@@ -405,6 +422,9 @@ header {
     margin-left: 0px;
     margin-bottom: 8px;
 }
+.social-section {
+    margin-top: 60px;
+}
 .social-section .custom {
     display: none;
 }
@@ -416,6 +436,10 @@ header {
 }
 .work-section a:hover, .work-section .active {
     padding: 3px 17px;}
+    footer {
+    background-color: #40afcc;
+    margin-top: 60px;
+}
 }
 
 @media(max-width: 420px){
