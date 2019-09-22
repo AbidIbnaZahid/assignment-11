@@ -543,10 +543,10 @@ input{
 .form-group {
     /* margin-bottom: 2.2rem; */
 }
+
 .form-btn-custom{
     background-color: #40afcc;
     text-transform: uppercase;
-    /* margin-right: 10px; */
     border-color: #6bc1d7;
     border-bottom-right-radius: 20px;
     color: #FFF;
@@ -556,6 +556,7 @@ input{
     margin-left: 370px;
     /* float: right; */
 }
+.bt-c{}
 .form-btn-custom:hover{
     background-color: #186477;
     color: #fff;

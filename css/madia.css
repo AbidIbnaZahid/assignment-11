@@ -1,3 +1,12 @@
+@media(max-width:1400px){
+    .social-section .nav {
+    background-color: #f1fcff;
+    border-bottom-right-radius: 36px;
+    width: 89%;
+}
+}
+
+
 @media(max-width: 1199px){
 
     .banner .header h1 {
@@ -69,6 +78,12 @@
 }
 .form-btn-custom {
     margin-left: 281px;
+}
+.social-section .custom {
+    font-size: 26px;
+    margin-left: -26px;
+    margin-top: 7px;
+    margin-left: -39px;
 }
 }
 
@@ -154,14 +169,14 @@
     background-size: 100% 100%;
 }
 .project-img h1 {
-    padding: 71px 80px;
+    padding: 60px 80px;
     font-size: 18px;
     font-weight: 400;
 }
 .project-img a {
     padding: 9px 18px;
     font-size: 12px;
-    margin-top: -112px;
+    margin-top: -102px;
 }
 .contact-section h1 {
     font-size: 44px;
@@ -178,7 +193,7 @@
     margin-left: 204px;
 }
 .social-section li {
-    padding: 11px 0;
+    padding: 16px 0;
     padding-left: 28px;
 }
 .social-section i {
@@ -241,6 +256,10 @@ display: none;
 .resume-contant span {
     font-size: 18px;
 }
+.resume-contant p {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
 .work-section h1 {
     font-size: 30px;
     line-height: 1.9;
@@ -251,15 +270,15 @@ display: none;
 .work-section li {
     font-size: 18px;
 }
-.project-img h1 {
-    padding: 71px 80px;
-    font-size: 8px;
-    font-weight: 600;
-}
 .project-img a {
-    padding: 7px 14px;
+    padding: 6px 12px;
     font-size: 8px;
-    margin-top: -97px;
+    margin-top: -72px;
+}
+.project-img h1 {
+    padding: 44px 24px;
+    font-size: 13px;
+    font-weight: 600;
 }
 .contact-section h1 {
     font-size: 30px;
@@ -276,6 +295,9 @@ display: none;
 }
 
 @media(max-width: 575px){
+	.banner .row {
+    height: 87vh;
+}
        .banner .header h1 {
         font-size: 37px;
 }
@@ -302,39 +324,56 @@ display: none;
     margin: auto;
 }
 .skill-section h1 {
-    font-size: 22px;
+    font-size: 24px;
 }
 .skill-section span {
     font-size: 36px;
+    line-height: 1.6;
 }
 header {
     font-size: 18px;
 }
+.resume-section {
+    padding: 45px 0;
+}
+.resume-section .heading {
+    margin-bottom: 50px;
+}
 .resume-section h1 {
+    font-size: 22px;
+}
+.resume-contant h2 {
     font-size: 19px;
+    margin: 12px 0;
 }
 .resume-section span {
     font-size: 36px;
+    line-height: 2.2;
 }
 .resume-contant p {
     font-size: 14px;
-    width: 334px;
+    width: 325px;
+    margin-top: 10px;
 }
 .resume-contant span {
     padding: 2px 3px;
     font-size: 16px;
 }
 .work-section h1 {
-    font-size: 19px;
+    font-size: 23px;
 }
 .work-section span {
     font-size: 36px;
+    line-height: 2.3;
 }
 .work-section li {
     font-size: 9px;
 }
 .work-section a{
     padding: 3px 17px;
+
+    font-size: 12px;
+
 }
 .work-section a:hover{
     padding: 3px 17px;
@@ -342,10 +381,10 @@ header {
 .project-img a {
     padding: 6px 12px;
     font-size: 8px;
-    margin-top: -97px;
+    margin-top: -72px;
 }
 .project-img h1 {
-    padding: 71px 24px;
+    padding: 44px 24px;
     font-size: 13px;
     font-weight: 600;
 }
@@ -358,11 +397,20 @@ header {
 }
 .form-btn-custom {
     font-size: 11px;
-    margin-left: 236px;
+    margin-left: 0px;
+    margin-bottom: 8px;
 }
 .social-section .custom {
     display: none;
 }
+.social-section .nav {
+    width: 108px;
+}
+.social-section li {
+    padding-left: 39px;
+}
+.work-section a:hover, .work-section .active {
+    padding: 3px 17px;}
 }
 
 @media(max-width: 400px){
@@ -424,27 +472,22 @@ header {
 .resume-contant h2 {
     font-size: 9px;
 }
-.resume-contant h3 {
-    font-size: 8px;
-}
-.resume-contant p {
-    font-size: 8px;
-    width: 135px;
-}
 .resume-contant span{
     padding: 2px 3px !important;
     font-size: 13px !important;;
 }
 .resume-contant h2 {
-    font-size: 9px;
+    font-size: 19px;
+    margin: 12px 0;
 }
 .resume-contant h3 {
     font-size: 7px;
     margin-bottom: -15px;
 }
 .resume-contant p {
-    font-size: 8px;
-    width: 135px;
+    font-size: 14px;
+    width: 325px;
+    margin-top: 10px;
 }
 .resume-box:hover::after{
 
@@ -472,13 +515,13 @@ header {
     border-bottom-right-radius: 39px;
 }
 .project-img h1 {
-    padding: 38px 17px;
-    font-size: 3px;
+    padding: 34px 17px;
+    font-size: 7px;
 }
 .project-img a {
-    padding: 2px 2px;
+    padding: 2px 5px;
     font-size: 5px;
-    margin-top: -49px;
+    margin-top: -48px;
 }
 .contact-section h1 {
     font-size: 24px;
