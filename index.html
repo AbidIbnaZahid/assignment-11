@@ -13,12 +13,24 @@
     <link rel="stylesheet" href="css/madia.css">
     <link rel="stylesheet" href="css/all.min.css">
 
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.parallux.min.css">
+    <link rel="stylesheet" href="css/jquery.parallux.min.css">
+
+    <link rel="stylesheet" href="css/fakeLoader.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display:400,700|Roboto+Condensed:400,700i&display=swap" rel="stylesheet">
     <title>personal</title>
   </head>
-  <body>
-   
+
+
+  <body id="home">
+   <div class="fakeLoader"></div>
+
 
  <nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
   <div class="container">
@@ -29,63 +41,65 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">home</a>
+          <a class="nav-link" href="#home">home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">about</a>
+          <a class="nav-link" href="#about">about</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">skills</a>
+          <a class="nav-link" href="#skills">skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">resume</a>
+          <a class="nav-link" href="#resume">resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">works</a>
+          <a class="nav-link" href="#works">works</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">contact</a>
+          <a class="nav-link" href="#contact">contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-<section class="banner">
-  <div class="container">
-  <div class="row justify-content-center align-items-center ">
-    <div class="col-xl col-12">
-        <div class="header">
-      <h1><span>I am</span> LOREM IPSUM</h1>
-      <p>Professional Web Designer & DeveloperInvolved with the
-      latest web frameworks and technologies. If you have a 
-      project then feel free to contact me.</p>
-      <a href="#" class="btn btn-custom">download cv</a>
-    <a href="#" class="btn btn-custom-reverse">my portfolio</a>
-    </div>
-    
+
+<section class="banner parallax">
+    <div id="particles-js"></div>
+    <div class="container parallux-bg fixed">
+    <div class="row justify-content-center align-items-center ">
+      <div class="col-xl col-12 parallux-inner dark bg-header">
+        <div class="header rellax parallax-slider">
+          <h1><span>I am</span> LOREM IPSUM</h1>
+          <p>Professional Web Designer & DeveloperInvolved with the
+          latest web frameworks and technologies. If you have a 
+          project then feel free to contact me.</p>
+          <a href="#" class="btn btn-custom">download cv</a>
+          <a href="#" class="btn btn-custom-reverse">my portfolio</a>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-<ul class="list-unstyled social-icon">
-  <li><a href="#"><i class="fab fa-twitter"></i></li></a></li>
-  <li><a href="#"><i class="fab fa-facebook-f"></i></li></a></li>
-  <li><a href="#"><i class="fab fa-linkedin"></i></li></a></li>
-  <li><a href="#"><i class="fab fa-facebook-f"></i></li></a></li>
-  <li><span>follow me</span></li>
-</ul>
+      <ul class="list-unstyled social-icon">
+        <li><a href="#"><i class="fab fa-twitter"></i></li></a></li>
+        <li><a href="#"><i class="fab fa-facebook-f"></i></li></a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i></li></a></li>
+        <li><a href="#"><i class="fab fa-facebook-f"></i></li></a></li>
+        <li><span>follow me</span></li>
+      </ul>
 </section>
 
 
-<section class="about-section">
+
+<section class="about-section" id="about">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-xl-6 col-lg-7 col-md-7 col-sm-11 col-10">
-        <div class="about-img ">
+        <div class="about-img rellax" data-rellax-speed="-1">
           <img src="images/about-img.png" class="w-100">
         </div>
       </div>
 
-      <div class="col-xl-4 col-lg-5 col-md-5 col-sm">
+      <div class="col-xl-4 col-lg-5 col-md-5 col-sm rellax" data-rellax-speed="1">
         <div class="heading">
           <h1>about me</h1>
           <span>wellcome</span>
@@ -109,7 +123,7 @@
   </div>
 </section>
 
-<section class="skill-section">
+<section class="skill-section" id="skills">
   <div class="container ">
     <div class="heading">
       <h1>skills</h1>
@@ -117,21 +131,24 @@
     </div>
 <header>FRONT END DEVELOPMENT</header>
     <div class="row justify-content-center align-items-center ">
+      <div class="col-xl col-xl col-md-5 col-sm-6 col-7 mb-4" >
       
-      <div class="col-xl col-xl col-md-5 col-sm-6 col-7 mb-4">
-        <div class="skill dark html">
+
+        <div class="skill dark html" data-aos="fade-up"data-aos-anchor-placement="center-center">
           <img src="images/html.png" class="img-fluid"><p>BOOTSTRAP<br>MEDIA QUERIES<br>FRAMEWORKS</p>
         </div>
          
       </div>
-      <div class="col-xl col-xl col-md-5 col-sm-6 col-7 mb-4">
-        <div class="skill dark css">
+      <div class="col-xl col-xl col-md-5 col-sm-6 col-7 mb-4" >
+        <div class="skill dark css" data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
           <img src="images/css.png" class="img-fluid"> <p>BOOTSTRAP<br>MEDIA QUERIES<br>FRAMEWORKS</p>
         </div>
        
       </div>
       <div class="col-xl col-xl col-md-5 col-sm-6 col-7 mb-4">
-        <div class="skill dark js">
+        <div class="skill dark js" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
           <img src="images/js.png" class="img-fluid">
           <p>BOOTSTRAP<br>MEDIA QUERIES<br>FRAMEWORKS</p>
 
@@ -139,7 +156,7 @@
         
       </div>
       <div class="col-xl col-xl col-md-5 col-sm-6 col-7 mb-4">
-        <div class="skill dark bootstrap">
+        <div class="skill dark bootstrap" data-aos="fade-up"data-aos-anchor-placement="center-center">
           <img src="images/bootstrap.png" class="img-fluid"> 
           <p>BOOTSTRAP<br>MEDIA QUERIES<br>FRAMEWORKS</p>
         </div>
@@ -150,28 +167,34 @@
     <div class="row justify-content-center align-items-center">
       
       <div class="col-xl col-xl col-md-5 col-sm-6 col-7 mb-4">
-        <div class="skill yellow php">
+        <div class="skill yellow php" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <img src="images/php.png" class="img-fluid">
            <p>MYSQL<br>MONGODB<br>POSTGRESQL</p>
         </div>
         
       </div>
       <div class="col-xl col-xl col-md-5 col-sm-6 col-7 mb-4">
-        <div class="skill yellow phyton">
+        <div class="skill yellow phyton" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
           <img src="images/phyton.png" class="img-fluid">
           <p>MYSQL<br>MONGODB<br>POSTGRESQL</p>
         </div>
         
       </div>
       <div class="col-xl col-xl col-md-5 col-sm-6 col-7 mb-4">
-        <div class="skill yellow database">
+        <div class="skill yellow database" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
           <img src="images/database.png" class="img-fluid">
            <p>MYSQL<br>MONGODB<br>POSTGRESQL</p>
         </div>
        
       </div>
       <div class="col-xl col-xl col-md-5 col-sm-6 col-7 mb-4">
-        <div class="skill yellow data">
+        <div class="skill yellow data" data-aos="fade-left">
           <img src="images/data.png" class="img-fluid">
            <p>MYSQL<br>MONGODB<br>POSTGRESQL</p>
         </div>
@@ -183,7 +206,7 @@
     <div class="row justify-content-center align-items-center">
 
       <div class="col-xl col-xl col-md-5 col-sm-6 col-7 mb-4">
-        <div class="skill dark seo">
+        <div class="skill dark seo" data-aos="zoom-in">
           <img src="images/seo.png" class="img-fluid">
           <span>SEO</span>
           <p>ORGANIC<br>PAID</p>
@@ -191,7 +214,7 @@
          
       </div>
       <div class="col-xl col-xl col-md-5 col-sm-6 col-7 mb-4">
-        <div class="skill dark campaogns">
+        <div class="skill dark campaogns" data-aos="zoom-in-down">
           <img src="images/campaogns.png" class="img-fluid">
           <span>campaigns</span>
            <p>ORGANIC<br>PAID</p>
@@ -199,7 +222,7 @@
        
       </div>
       <div class="col-xl col-xl col-md-5 col-sm-6 col-7 mb-4">
-        <div class="skill dark social">
+        <div class="skill dark social" data-aos="zoom-in-up">
           <img src="images/social.png" class="img-fluid">
           <span>social media</span>
            <p>ORGANIC<br>PAID</p>
@@ -211,7 +234,7 @@
     <div class="row justify-content-center align-items-center">
      
     <div class="col-xl-4 col-xl col-md-5 col-sm-6  col-7">
-        <div class="skill pink grapic">
+        <div class="skill pink grapic" data-aos="fade-up">
           <img src="images/grapic.png" class="img-fluid">
           <span>graphic design</span>
         <p>photoshop<br>illustator<br>indesign</p>
@@ -222,7 +245,7 @@
 </section>
 
 
-<section class="resume-section">
+<section class="resume-section" id="resume">
   <div class="container ">
     <div class="heading">
       <h1>resume</h1>
@@ -231,10 +254,10 @@
     <div class="resume-items">
       
 <div class="row no-gutters justify-content-center">
-  <div class="col-xl-6 col-lg-6 col-md-8 col-12">
+  <div class="col-xl-6 col-lg-6 col-md-8 col-12" >
     <h5>education</h5>
     <div class="resume-box">
-      <div class="resume-contant">
+      <div class="resume-contant" data-aos="fade-right">
         <span>2018 - 2019</span>
         <h2>code institute</h2>
         <h3>Full Stack Software Development</h3>
@@ -244,7 +267,7 @@
       </div>
     </div>
     <div class="resume-box">
-      <div class="resume-contant">
+      <div class="resume-contant" data-aos="fade-up-right">
         <span>2005 - 2009</span>
         <h2>OXFORD BROOKES UNIVERSITY</h2>
         <h3>BSc Hons Applied Accountancy</h3>
@@ -256,7 +279,7 @@
       </div>
     </div>
     <div class="resume-box">
-      <div class="resume-contant">
+      <div class="resume-contant" data-aos="flip-left">
         <span>2005 - 2009</span>
         <h2>UNIVERSITY OF GLAMORGAN</h2>
         <h3>HNC Business Information Technology</h3>
@@ -270,7 +293,7 @@
   <div class="col-xl-6 col-lg-6 col-md-8 col-12">
     <h5>EXPERIENCE</h5>
     <div class="resume-box">
-      <div class="resume-contant">
+      <div class="resume-contant" data-aos="zoom-in-left">
         <span>2016 - 2019</span>
         <h2>UNIVERSITY OF EXETER</h2>
         <h3>Full Stack Software Development</h3>
@@ -280,7 +303,7 @@
       </div>
     </div>
     <div class="resume-box">
-      <div class="resume-contant">
+      <div class="resume-contant" data-aos="zoom-out">
         <span>2013 - 2014</span>
         <h2>QUINTESSENTIAL APPS LTD</h2>
         <h3>BSc Hons Applied Accountancy</h3>
@@ -291,7 +314,7 @@
       </div>
     </div>
     <div class="resume-box">
-      <div class="resume-contant">
+      <div class="resume-contant" data-aos="flip-right">
         <span>2011 - 2012</span>
         <h2>CODE WORLD</h2>
         <h3>Information Technology Solutions</h3>
@@ -308,39 +331,99 @@
 </section>
 
 
-<section class="work-section">
-  <div class="container ">
 
+
+
+
+
+<!-- 
+<section class="work-section" id="Works">
+    <div class="container" data-js="filtering-demo">
+          <div class="heading">
+              <h1>work</h1>
+              <span>latest portfolio</span>
+            </div>
+
+          <ul class="nav justify-content-center filter-button-group">
+            <li>
+              <button class="is-checked" data-filter="*">all</button>
+            </li>
+            <li>
+              <button data-filter=".web">web</button>
+            </li>
+            <li>
+              <button data-filter=".interface">interface</button>
+            </li>
+            <li>
+              <button data-filter=".identity">identity</button>
+            </li>
+            <li>
+              <button data-filter=".design">design</button>
+            </li>
+          </ul>
+
+          <div class="row no-gutters work grid">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 element-item web interface">
+              <img src="images/layer-1.png" class="img-fluid w-100">
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 element-item design identity">
+              <img src="images/layer-2.png" class="img-fluid w-100">
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 element-item web design">
+              <img src="images/layer-3.png" class="img-fluid w-100">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 element-item  identity">
+              <img src="images/layer-4.png" class="img-fluid w-100">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 element-item  interface">
+              <img src="images/layer-5.png" class="img-fluid w-100">
+            </div>
+          </div>
+        </div>
+    </section>
+ -->
+
+
+
+
+
+
+
+
+
+
+<section class="work-section" id="works">
+  <div class="container" data-js="filtering-demo">
     <div class="heading">
       <h1>work</h1>
         <span>LETEST PORTFOLIO</span>
     </div>
-<ul class="nav">
-  <li><a href="#" class="active">all</a></li>
-  <li><a href="">design</a></li>
-  <li><a href="">web</a></li>
-  <li><a href="">interface</a></li>
-  <li><a href="">idntity</a></li>
+<ul class="nav justify-content-center filter-button-group">
+<li><button class="is-checked" data-filter="*"> all</button></li>
+<li><button data-filter=".design"> design</button></li>
+<li><button data-filter=".web"> web</button></li>
+<li><button data-filter=".interface"> interface</button></li>
+<li><button data-filter=".idntity"> idntity</button></li>
 </ul>
 
-<div class="row no-gutters portfolio">
-  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-    <img src="images/layer-1.png">
+  <div class="row no-gutters portfolio grid">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 element-item design interface web">
+        <img src="images/layer-1.png" class="w-100">
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 element-item design idntity interface">
+      <img src="images/layer-2.png" class="w-100"> 
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 element-item  idntity design web"> 
+        <img src="images/layer-3.png" class="w-100">
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 element-item web idntity interface"> 
+        <img src="images/layer-4.png" class="w-100">
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 element-item interface web">
+        <img src="images/layer-5.png" class="w-100">
+      </div>
+    </div>
   </div>
-  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
-  <img src="images/layer-2.png"> 
-  </div>
-  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6"> 
-    <img src="images/layer-3.png">
-  </div>
-  <div class="col-xl-6 col-lg-6 col-md-6"> 
-    <img src="images/layer-4.png">
-  </div>
-  <div class="col-xl-6 col-lg-6 col-md-6">
-    <img src="images/layer-5.png">
-  </div>
-</div>
-   </div>
 </section>
 
 <section class="project-section">
@@ -362,7 +445,7 @@
 
 
 
-<section class="contact-section">
+<section class="contact-section" id="contact">
   <div class="container ">
 
     <div class="heading">
@@ -372,7 +455,7 @@
     <div class="row"> 
     <div class="col-xl-6 col-lg-6 col-md-6">
       <form>
-        <div class="row">
+        <div class="row" data-aos="zoom-in-right">
           <div class="col-xl form-group">
             <input type="text" placeholder="Name" class="form-control">
           </div>
@@ -391,7 +474,7 @@
         </div>
       </form>
     </div>
-   <div class="col-xl-6 col-lg-6 col-md-6">
+   <div class="col-xl-6 col-lg-6 col-md-6" data-aos="zoom-in-left">
      <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.098170400453!2d90.42334931445707!3d23.815107892219363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c64c103a8093%3A0xd660a4f50365294a!2sNorth%20South%20University!5e0!3m2!1sen!2sbd!4v1568223528930!5m2!1sen!2sbd"></iframe>
 </div>
@@ -400,35 +483,35 @@
   </div>
 </section>
 
+
+
 <section class="social-section">
   <div class="container">
-    <div class="row">
-      <div class="col-lg col-md col-sm col-4">
+    <div class="row justify-content-center owl-carousel owl-theme">
+      <div>
         <a href="#">
-          <ul class="nav">
-            <li><i class="fab fa-github-square"></i></li>
-            <li class="custom">github</li>
-          </ul>
-        </a>
+              <ul class="nav">
+                <li><i class="fab fa-github-square"></i></li>
+                <li class="custom">github</li>
+               </ul>
+          </a>
       </div>
-      <div class="col-lg col-md col-sm col-4">
+      <div> 
         <a href="#">
           <ul class="nav">
             <li><i class="fab fa-linkedin"></i></li>
             <li class="custom">linkedin</li>
           </ul>
         </a>
-        
-      </div>
-      <div class="col-lg col-md col-sm col-4">
+       </div>
+      <div>
         <a href="#">
           <ul class="nav">
             <li><i class="fab fa-twitter"></i></li>
             <li class="custom">twitter</li>
           </ul>
         </a>
-        
-      </div>
+       </div>
     </div>
   </div>
 </section>
@@ -443,14 +526,82 @@
   </div>
 </footer>
 
-
+<a href="#home" class="clicktop"><i class="fas fa-angle-double-up"></i></a>
     <!-- Optional JavaScript -->
+
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="js/jquery-2.2.3.min.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <!--  <script src="js/jquery-3.3.1.slim.min.js"></script> -->
    <script src="js/wow.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-       <script>
-              new WOW().init();
-              </script>
+    <!-- *************particles************* -->
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    
+    <script src="js/fakeLoader.min.js"></script>
+    
+    <script src="js/isotope-docs.min.js?6"></script>
+
+    <script src="js/rellax.min.js"></script>
+
+    <script src="js/aos.js"></script>
+       
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="js/parallax.min.js"></script>
+
+    <script src="js/jquery.nicescroll.min.js"></script>
+
+    <script src="js/jquery.parallux.min.js"></script>
+
+    <script src="js/pace.min.js"></script>
+
+
+    <script>
+        $.fakeLoader({
+          bgColor: '#e74c3c',
+          spinner: 'spinner2'
+          });
+   new WOW().init();
+    var rellax = new Rellax('.rellax', {center: true});
+     AOS.init();
+
+    var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:3,
+    loop:true,
+    margin:30,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true
+});
+$(function() {  
+    $("body").niceScroll({
+      cursorcolor: "#40afcc",
+      cursoropacitymin: 0,
+    cursoropacitymax: 1, 
+    cursorwidth: "5px",
+    cursorborder: "0 solid #fff", 
+    cursorborderradius: "30px",
+    scrollspeed: 100, 
+    mousescrollstep: 50,
+    });
+});
+$(function() {
+        $(".parallux").parallux();
+      });
+
+
+        </script>
   </body>
 </html>
+
